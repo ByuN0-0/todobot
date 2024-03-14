@@ -1,0 +1,101 @@
+2024-03-14 13:32:53,426:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-03-14 13:32:53,426:DEBUG:discord.client: on_ready has successfully been registered as an event
+2024-03-14 13:32:53,426:DEBUG:discord.client: on_message has successfully been registered as an event
+2024-03-14 13:32:53,428:INFO:discord.client: logging in using static token
+2024-03-14 13:33:42,378:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-03-14 13:33:42,378:DEBUG:discord.client: on_ready has successfully been registered as an event
+2024-03-14 13:33:42,378:DEBUG:discord.client: on_message has successfully been registered as an event
+2024-03-14 13:33:42,379:INFO:discord.client: logging in using static token
+2024-03-14 13:36:09,602:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-03-14 13:36:09,603:DEBUG:discord.client: on_ready has successfully been registered as an event
+2024-03-14 13:36:09,603:DEBUG:discord.client: on_message has successfully been registered as an event
+2024-03-14 13:36:09,604:INFO:discord.client: logging in using static token
+2024-03-14 13:36:10,956:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: ccfe48a5b915056947e5f2d6f5530896).
+2024-03-14 13:38:44,809:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-03-14 13:38:44,810:DEBUG:discord.client: on_ready has successfully been registered as an event
+2024-03-14 13:38:44,810:DEBUG:discord.client: on_message has successfully been registered as an event
+2024-03-14 13:38:44,811:INFO:discord.client: logging in using static token
+2024-03-14 13:38:46,164:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 74ee8f8813fad8c9a6a380f779732009).
+2024-03-14 13:56:03,150:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-03-14 13:56:03,150:DEBUG:discord.client: on_ready has successfully been registered as an event
+2024-03-14 13:56:03,150:DEBUG:discord.client: on_message has successfully been registered as an event
+2024-03-14 13:56:03,151:INFO:discord.client: logging in using static token
+2024-03-14 13:56:04,440:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 7c884eb563d9f517356588faa46b116a).
+2024-03-14 13:56:06,449:ERROR:discord.client: Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\isly7\Documents\Discord_Bot\TodoBot\.venv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\isly7\Documents\Discord_Bot\TodoBot\main.py", line 35, in on_ready
+    await send_message_at_time("메시지", "채널이름", "00:00")
+  File "C:\Users\isly7\Documents\Discord_Bot\TodoBot\main.py", line 43, in send_message_at_time
+    current_time = datetime.now().strftime("%H:%M")
+                   ^^^^^^^^^^^^
+AttributeError: module 'datetime' has no attribute 'now'
+2024-03-14 13:56:22,003:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-03-14 13:56:22,003:DEBUG:discord.client: on_ready has successfully been registered as an event
+2024-03-14 13:56:22,003:DEBUG:discord.client: on_message has successfully been registered as an event
+2024-03-14 13:56:22,005:INFO:discord.client: logging in using static token
+2024-03-14 13:56:23,333:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 984ae5a3be75c04f6a7b1c3fc989c467).
+2024-03-14 13:56:25,355:ERROR:discord.client: Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\isly7\Documents\Discord_Bot\TodoBot\.venv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\isly7\Documents\Discord_Bot\TodoBot\main.py", line 35, in on_ready
+    await send_message_at_time("메시지", "채널이름", "00:00")
+          ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'send_message_at_time' is not defined
+2024-03-14 13:56:36,099:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-03-14 13:56:36,099:DEBUG:discord.client: on_ready has successfully been registered as an event
+2024-03-14 13:56:36,099:DEBUG:discord.client: on_message has successfully been registered as an event
+2024-03-14 13:56:36,100:INFO:discord.client: logging in using static token
+2024-03-14 13:56:37,383:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 4ab0aa50382ab668fd45a8e2c45a9e05).
+2024-03-14 14:19:37,614:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-03-14 14:19:37,614:DEBUG:discord.client: on_ready has successfully been registered as an event
+2024-03-14 14:19:37,614:DEBUG:discord.client: on_message has successfully been registered as an event
+2024-03-14 14:19:37,615:INFO:discord.client: logging in using static token
+2024-03-14 14:19:38,907:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: d2fe5fbec3edd36e13b9e71689494eae).
+2024-03-14 14:19:40,926:ERROR:discord.client: Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\isly7\Documents\Discord_Bot\TodoBot\.venv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\isly7\Documents\Discord_Bot\TodoBot\main.py", line 36, in on_ready
+    await send_message_at_time("메시지", "1217692949970812979", "14:20")
+  File "C:\Users\isly7\Documents\Discord_Bot\TodoBot\main.py", line 44, in send_message_at_time
+    current_time = datetime.now().strftime("%H:%M")
+                   ^^^^^^^^^^^^
+AttributeError: module 'datetime' has no attribute 'now'
+2024-03-14 14:23:08,475:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-03-14 14:23:08,475:DEBUG:discord.client: on_ready has successfully been registered as an event
+2024-03-14 14:23:08,475:DEBUG:discord.client: on_message has successfully been registered as an event
+2024-03-14 14:23:08,476:INFO:discord.client: logging in using static token
+2024-03-14 14:23:09,743:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 6ca29ef06804311dd0ca01851aac944f).
+2024-03-14 14:24:02,467:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-03-14 14:24:02,467:DEBUG:discord.client: on_ready has successfully been registered as an event
+2024-03-14 14:24:02,467:DEBUG:discord.client: on_message has successfully been registered as an event
+2024-03-14 14:24:02,468:INFO:discord.client: logging in using static token
+2024-03-14 14:24:03,791:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 52eb3301e907e49b23b4440e2fe5f287).
+2024-03-14 14:25:05,817:ERROR:discord.client: Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "C:\Users\isly7\Documents\Discord_Bot\TodoBot\.venv\Lib\site-packages\discord\client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\isly7\Documents\Discord_Bot\TodoBot\main.py", line 36, in on_ready
+    await send_message_at_time("메시지", "1217692949970812979", "14:25")
+  File "C:\Users\isly7\Documents\Discord_Bot\TodoBot\main.py", line 48, in send_message_at_time
+    await channel.send(message)
+          ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'send'
+2024-03-14 14:26:24,046:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-03-14 14:26:24,046:DEBUG:discord.client: on_ready has successfully been registered as an event
+2024-03-14 14:26:24,048:DEBUG:discord.client: on_message has successfully been registered as an event
+2024-03-14 14:26:24,048:INFO:discord.client: logging in using static token
+2024-03-14 14:26:25,333:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 1e403e09f85aba0742b85080ec81bf39).
+2024-03-14 14:44:53,751:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-03-14 14:44:53,752:DEBUG:discord.client: on_ready has successfully been registered as an event
+2024-03-14 14:44:53,752:DEBUG:discord.client: on_message has successfully been registered as an event
+2024-03-14 14:44:53,753:INFO:discord.client: logging in using static token
+2024-03-14 14:44:55,064:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: 01a796a60c0ce54607812409bf60e6c6).
+2024-03-14 14:49:03,348:WARNING:discord.client: PyNaCl is not installed, voice will NOT be supported
+2024-03-14 14:49:03,348:DEBUG:discord.client: on_ready has successfully been registered as an event
+2024-03-14 14:49:03,349:DEBUG:discord.client: on_message has successfully been registered as an event
+2024-03-14 14:49:03,349:INFO:discord.client: logging in using static token
+2024-03-14 14:49:04,721:INFO:discord.gateway: Shard ID None has connected to Gateway (Session ID: d02fa49b25789e8dcd4dc02aaf9487f4).
